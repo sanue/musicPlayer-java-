@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+.SongClatb{
+	border:1px solid #ccc;
+	width:100%;
+	text-align:center;
+	}
+.SongClatb>tr{
+	border:1px solid #ccc;
+	}
+.SongClatb>tr:hover{
+	background-color:white;
+	}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(55, 133, 199, 0.72);
+}

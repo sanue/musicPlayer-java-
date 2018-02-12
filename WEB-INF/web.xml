@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.music.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ManagerHomeServlet</servlet-name>
+    <servlet-class>com.music.servlet.ManagerHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>signoutServlet</servlet-name>
+    <servlet-class>com.music.servlet.signoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>modifyServlet</servlet-name>
+    <servlet-class>com.music.servlet.modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddNewSectionServlet</servlet-name>
+    <servlet-class>com.music.servlet.AddNewSectionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModSectionNameServlet</servlet-name>
+    <servlet-class>com.music.servlet.ModSectionNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddNewClassifyServlet</servlet-name>
+    <servlet-class>com.music.servlet.AddNewClassifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModClaNameServlet</servlet-name>
+    <servlet-class>com.music.servlet.ModClaNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddSingerInfoServlet</servlet-name>
+    <servlet-class>com.music.servlet.AddSingerInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddSongInfoServlet</servlet-name>
+    <servlet-class>com.music.servlet.AddSongInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddNewMemberServlet</servlet-name>
+    <servlet-class>com.music.servlet.AddNewMemberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>modSingerServlet</servlet-name>
+    <servlet-class>com.music.servlet.modSingerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>com.music.fileupLoad.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FileLoadServlet</servlet-name>
+    <servlet-class>com.music.fileupLoad.FileLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPinServlet</servlet-name>
+    <servlet-class>com.music.servlet.GetPinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModSongServlet</servlet-name>
+    <servlet-class>com.music.servlet.ModSongServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSongInfoServlet</servlet-name>
+    <servlet-class>com.music.servlet.GetSongInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetNewSongListServlet</servlet-name>
+    <servlet-class>com.music.servlet.GetNewSongListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllSingersServlet</servlet-name>
+    <servlet-class>com.music.servlet.GetAllSingersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadHomeServlet</servlet-name>
+    <servlet-class>com.music.servlet.LoadHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FrontLoginServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.FrontLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FSingoutServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.FSingoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadSingerCatagoryServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.LoadSingerCatagoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSingersServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.GetSingersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetClaSingersServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.GetClaSingersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSingersByPinServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.GetSingersByPinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSingersByTwo</servlet-name>
+    <servlet-class>com.music.front.servlet.GetSingersByTwo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadSongCatagoryServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.LoadSongCatagoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSongsByClaServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.GetSongsByClaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSingerInfoServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.GetSingerInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadSingerDetailsServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.LoadSingerDetailsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMembersServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.GetMembersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PushMemberServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.PushMemberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadMusicBoxServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.LoadMusicBoxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMySongsServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.GetMySongsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleMyThisSongServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.DeleMyThisSongServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadSingerInfoServlet</servlet-name>
+    <servlet-class>com.music.servlet.LoadSingerInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadSongInfoServlet</servlet-name>
+    <servlet-class>com.music.servlet.LoadSongInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterMServlet</servlet-name>
+    <servlet-class>com.music.front.servlet.RegisterMServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/login.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerHomeServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/managerHome.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>signoutServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/signout.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/modify.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewSectionServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/addNewSection.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModSectionNameServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/modSecName.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewClassifyServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/addNewClassify.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModClaNameServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/modClaName.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSingerInfoServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/addsingerInfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSongInfoServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/addSongInfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewMemberServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/addNewMember.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modSingerServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/modSinger.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/FileUpload.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileLoadServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/FileLoad.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPinServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/getPin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModSongServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/modSong.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSongInfoServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/getSongInfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNewSongListServlet</servlet-name>
+    <url-pattern>/Website/getNewSongList.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllSingersServlet</servlet-name>
+    <url-pattern>/Website/getAllSingers.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadHomeServlet</servlet-name>
+    <url-pattern>/Website/homepage.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrontLoginServlet</servlet-name>
+    <url-pattern>/Website/flogin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FSingoutServlet</servlet-name>
+    <url-pattern>/Website/fsignout.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadSingerCatagoryServlet</servlet-name>
+    <url-pattern>/Website/singersCatagory.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSingersServlet</servlet-name>
+    <url-pattern>/Website/getSingers.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetClaSingersServlet</servlet-name>
+    <url-pattern>/Website/getClaSingers.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSingersByPinServlet</servlet-name>
+    <url-pattern>/Website/getSingersByPin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSingersByTwo</servlet-name>
+    <url-pattern>/Website/getSingersByTwo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadSongCatagoryServlet</servlet-name>
+    <url-pattern>/Website/singerList.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSongsByClaServlet</servlet-name>
+    <url-pattern>/Website/GetSongByCla.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSingerInfoServlet</servlet-name>
+    <url-pattern>/Website/getSingerInfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadSingerDetailsServlet</servlet-name>
+    <url-pattern>/Website/singerDetails.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMembersServlet</servlet-name>
+    <url-pattern>/Website/getMember.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PushMemberServlet</servlet-name>
+    <url-pattern>/Website/pushMember.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadMusicBoxServlet</servlet-name>
+    <url-pattern>/Website/musicBox.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMySongsServlet</servlet-name>
+    <url-pattern>/Website/getMysongs.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleMyThisSongServlet</servlet-name>
+    <url-pattern>/Website/deleMyThisSong.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadSingerInfoServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/singerInfo.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadSongInfoServlet</servlet-name>
+    <url-pattern>/ManagerWebsite/songInfo.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/Website/register.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterMServlet</servlet-name>
+    <url-pattern>/Website/registerM.do</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

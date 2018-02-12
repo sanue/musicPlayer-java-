@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+.mainLogin{
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+    width: 500px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.27);
+	}
+.title{
+	text-align:center;
+	}
+.mydlbtn{
+	margin-top:30px;
+	}
+input {
+    border: 1px solid #CCC;
+    height: 35px;
+    border-radius: 4px;
+    color:black;
+}
+button{
+	width:100px;
+	vertical-align:top;
+	height:40px;
+	line-height:40px;
+	background-color:#F3F3F3;
+	border:1px solid #C2C2C2;
+}
+canvas{
+	vertical-align:top;
+	background-color:#F3F3F3;
+	border:1px solid #C2C2C2;
+	cursor:pointer;
+}
+#ddd {
+    width: 90px;
+    height: 40px;
+}
+#inputCode{
+	margin-top:20px;
+	}

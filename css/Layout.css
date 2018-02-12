@@ -1,0 +1,13 @@
+body{
+	min-width:1080px;
+}
+.header{
+    height:36px;
+    line-height: 36px;
+    border-bottom: 1px solid #cdcdcd;
+    margin-bottom: 16px;
+}
+
+img{
+    display: block;
+}

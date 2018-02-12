@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+.col-lg-12 {
+    min-height: 475px;
+}
+form#chgpsdform {
+    padding: 100px;
+}
